@@ -1,0 +1,37 @@
+site_name: "QuantumQuest: Dive into Grade 10 Math and Science"
+theme:
+  name: material
+  palette: 
+    
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Open Sans
+  logo: assets/images/Ramanujaswami.png
+  features:
+    -navigation.tabs
+    -navigation.tabs.sticky
+nav:
+  - Home: index.md
+  - About: about.md
+  - Grade 10 Math:
+      - Algebra: grade10_math/algebra.md
+      - Geometry: grade10_math/geometry.md
+      - Trigonometry: grade10_math/trigonometry.md
+      # Add more topics as needed
+  - Grade 10 Science:
+      - Physics: grade10_science/physics.md
+      - Chemistry: grade10_science/chemistry.md
+      - Biology: grade10_science/biology.md
+      # Add more subjects as needed
+  - Contact: contact.md
